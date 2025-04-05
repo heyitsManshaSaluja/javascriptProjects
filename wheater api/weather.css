@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(34, 159, 190);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(10, 33, 80);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+    height: 40px;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.current-weather {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+.temp {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.humidity,
+.windspeed,
+.feels-like {
+    margin: 5px 0;
+}
